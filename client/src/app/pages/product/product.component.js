@@ -33,9 +33,9 @@ let ProductComponent = class ProductComponent {
     }
     createProduct() {
         const data = {
-            title: 'Computadora Itel core i7',
-            price: 650,
-            description: 'Electrodomesticos / Erick Guevara',
+            title: 'Oficina',
+            price: 1000,
+            description: 'Impresora / Marcelo Ontaneda',
             images: [
                 'https://m.media-amazon.com/images/I/51A+xXT0yiL._AC_SY580_.jpg',
             ],
@@ -47,9 +47,9 @@ let ProductComponent = class ProductComponent {
     }
     updateProduct() {
         const data = {
-            title: 'Computadora Itel core i10',
-            price: 1150,
-            description: 'Electrodomesticos / Erick Guevara',
+            title: 'Cocina',
+            price: 456,
+            description: 'Microodas / Marcelo Ontaneda',
         };
         this.productHttpService.update(2, data).subscribe(response => {
             console.log(response);
